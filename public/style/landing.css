@@ -1,0 +1,26 @@
+.info{
+    width: 100%;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.info .row{
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0;
+    padding: 0px 0px;
+    
+}
+.info .row .col-md-6 img{
+    width: 100%
+}
+.info .row .col-md-6 p{
+    text-align: center;
+    padding: 300px 10px;
+}
+
+.remove-margin-sides{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}

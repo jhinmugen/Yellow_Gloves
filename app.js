@@ -4,9 +4,11 @@ var express    = require("express"),
 
 //requiring routes
 var indexRoutes = require("./routes/index.js");
-    
+
+app.use(express.static(__dirname + "/public"));    
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
+
 
 
 //use routes

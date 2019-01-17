@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Τα Κίτρινα Γάντια</title>
+        
         <script
 			  src="https://code.jquery.com/jquery-3.3.1.min.js"
 			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -9,37 +10,64 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <link rel ="stylesheet" href="/stylesheets/main.css">
-        
+        <link rel="stylesheet" href="/style/landing.css">
     </head>
     <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class = "navbar-brand"href="/" >Τα Κίτρινα Γάντια</a>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class = "navbar-brand"href="/" >Τα Κίτρινα Γάντια</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/">ΑΡΧΙΚΗ</a></li>
+                        <li><a href="/menu">ΜΕΝΟΥ</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ΠΡΟΦΙΛ <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/restaurant">Το Εστιατόριο</a></li>
+                                <li><a href="/employees">Το Προσωπικό</a></li>
+                            </ul>
+                        <li><a href="/contact">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>    
+                    </ul>
+                </div>
             </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/">ΑΡΧΙΚΗ</a></li>
-                    <li><a href="/menu">ΜΕΝΟΥ</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ΠΡΟΦΙΛ <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="/restaurant">Το Εστιατόριο</a></li>
-                            <li><a href="/employees">Το Προσωπικό</a></li>
-                        </ul>
-                    <li><a href="/contact">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>    
-                </ul>
+        </nav>
+
+        <div class = "container slideshow">
+            <img src="https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/one_pot_chorizo_and_15611_16x9.jpg" class="img-fluid">
+        </div>
+        <div class = "container info">
+            <div class = "row">
+                <div class = "col-md-6 remove-margin-sides">
+                    <img src="https://scontent.fath5-1.fna.fbcdn.net/v/t1.0-9/34274657_1238937029543123_3030292889834881024_o.jpg?_nc_cat=107&_nc_ht=scontent.fath5-1.fna&oh=8c876be2376bd8f21ef6b3882e108bca&oe=5CB5E0D0" class="img-fluid sub-images">
+                </div>
+                <div class = "col-md-6 remove-margin-sides">
+                    <p>entence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "col-md-6 remove-margin-sides">
+                    <p>entence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>   
+                </div>
+                <div class = "col-md-6 remove-margin-sides">
+                    <img src="https://scontent.fath5-1.fna.fbcdn.net/v/t1.0-9/960208_391775114259323_1387675962_n.jpg?_nc_cat=100&_nc_ht=scontent.fath5-1.fna&oh=f46a7ff01af15f3672120c96c43e5b96&oe=5CC501F0" class="img-fluid sub-images">
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "col-md-6 remove-margin-sides">
+                    <img src="https://scontent.fath5-1.fna.fbcdn.net/v/t1.0-9/49937837_1499846236785533_8594272332875300864_o.jpg?_nc_cat=107&_nc_ht=scontent.fath5-1.fna&oh=7341eb5beb1acd8981be85927b4709af&oe=5CC196BE" class="img-fluid sub-images">
+                </div>
+                <div class = "col-md-6 remove-margin-sides">
+                   <p>entence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>       
+                </div>
             </div>
         </div>
-    </nav>
-
-<h1>Hello There</h1>
 
 <% include partials/footer %>
