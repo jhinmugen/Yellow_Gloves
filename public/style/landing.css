@@ -1,26 +1,31 @@
-.info{
-    width: 100%;
-    margin: 0px 0px;
-    padding: 0px 0px;
+body{
+    background-image: url("/images/background.jpg");
+
 }
-.info .row{
-    margin-bottom: 5px;
-    margin-left: 0px;
-    margin-right: 0;
-    padding: 0px 0px;
-    
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
 }
-.info .row .col-md-6 img{
-    width: 100%
-}
-.info .row .col-md-6 p{
-    text-align: center;
-    padding: 300px 10px;
+.changeColor{
+    color: black;
 }
 
-.remove-margin-sides{
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+#mainNavbar .nav-link:hover {
+    color: #D8C235;
+    text-decoration: underline;
+    
 }
+
+.carousel-style img{
+    width: 100%;
+    height:964px;
+}
+.carousel-style{
+    margin:0px 0px;
+    padding: 0px 0px;
+    top: 0px;
+    width: 100%
+}
+
+
+

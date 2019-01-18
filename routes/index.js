@@ -13,10 +13,8 @@ router.get("/menu", function(req,res){
 router.get("/restaurant", function(req,res){
    res.render("restaurant"); 
 });
-//employees page
-router.get("/employees", function(req,res){
-   res.render("employees"); 
-});
+
+
 //contact page
 router.get("/contact", function(req,res){
    res.render("contact"); 

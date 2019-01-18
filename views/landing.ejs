@@ -2,72 +2,97 @@
 <html>
     <head>
         <title>Τα Κίτρινα Γάντια</title>
-        
-        <script
-			  src="https://code.jquery.com/jquery-3.3.1.min.js"
-			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-			  crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="/style/landing.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel ="stylesheet" href="/style/landing.css">
     </head>
     <body>
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class = "navbar-brand"href="/" >Τα Κίτρινα Γάντια</a>
-                </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="/">ΑΡΧΙΚΗ</a></li>
-                        <li><a href="/menu">ΜΕΝΟΥ</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ΠΡΟΦΙΛ <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="/restaurant">Το Εστιατόριο</a></li>
-                                <li><a href="/employees">Το Προσωπικό</a></li>
-                            </ul>
-                        <li><a href="/contact">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>    
-                    </ul>
-                </div>
-            </div>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
+          <a class="navbar-brand" href="/">Τα Κίτρινα Γάντια</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="/">ΑΡΧΙΚΗ <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/restaurant">ΠΡΟΦΙΛ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/menu">ΜΕΝΟΥ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+              </li>
+            </ul>
+          </div>
         </nav>
-
-        <div class = "container slideshow">
-            <img src="https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/one_pot_chorizo_and_15611_16x9.jpg" class="img-fluid">
+        
+        <div class="container-fluid carousel-style">
+            <div id="mainCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="5000">
+                  <img src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?cs=srgb&dl=burger-chips-dinner-70497.jpg&fm=jpg" class="d-block w-100 img-fluid" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="5000">
+                  <img class="img-fluid" src="https://images.pexels.com/photos/46239/salmon-dish-food-meal-46239.jpeg?cs=srgb&dl=close-up-cooking-dinner-46239.jpg&fm=jpg" class="d-block w-100 img-fluid" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="5000">
+                  <img src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?cs=srgb&dl=burrito-chicken-close-up-461198.jpg&fm=jpg" class="d-block w-100 img-fluid" alt="...">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#mainCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#mainCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>                
         </div>
-        <div class = "container info">
-            <div class = "row">
-                <div class = "col-md-6 remove-margin-sides">
-                    <img src="https://scontent.fath5-1.fna.fbcdn.net/v/t1.0-9/34274657_1238937029543123_3030292889834881024_o.jpg?_nc_cat=107&_nc_ht=scontent.fath5-1.fna&oh=8c876be2376bd8f21ef6b3882e108bca&oe=5CB5E0D0" class="img-fluid sub-images">
-                </div>
-                <div class = "col-md-6 remove-margin-sides">
-                    <p>entence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-                </div>
-            </div>
-            <div class = "row">
-                <div class = "col-md-6 remove-margin-sides">
-                    <p>entence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>   
-                </div>
-                <div class = "col-md-6 remove-margin-sides">
-                    <img src="https://scontent.fath5-1.fna.fbcdn.net/v/t1.0-9/960208_391775114259323_1387675962_n.jpg?_nc_cat=100&_nc_ht=scontent.fath5-1.fna&oh=f46a7ff01af15f3672120c96c43e5b96&oe=5CC501F0" class="img-fluid sub-images">
+        <section class="container-fluid px-0">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="text-black text-center mt-5">
+                        <p>Merika Logia gia to estiatoria kai poso ektimamai tous pellates kai thn paradosh mpla mpla mpla</p>
+                    </div>
+                 </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="https://scontent.fath5-1.fna.fbcdn.net/v/t1.0-9/47185521_1461734757263348_2695296182460088320_n.jpg?_nc_cat=104&_nc_ht=scontent.fath5-1.fna&oh=6f7abf44a773116bac4e1667d8439d89&oe=5D00E586" alt="">
                 </div>
             </div>
-            <div class = "row">
-                <div class = "col-md-6 remove-margin-sides">
-                    <img src="https://scontent.fath5-1.fna.fbcdn.net/v/t1.0-9/49937837_1499846236785533_8594272332875300864_o.jpg?_nc_cat=107&_nc_ht=scontent.fath5-1.fna&oh=7341eb5beb1acd8981be85927b4709af&oe=5CC196BE" class="img-fluid sub-images">
+        </section>
+        <section clas ="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6 order-2 order-md-1">
+                    <img class="img-fluid" src="https://scontent.fath5-1.fna.fbcdn.net/v/t1.0-9/49937837_1499846236785533_8594272332875300864_o.jpg?_nc_cat=107&_nc_ht=scontent.fath5-1.fna&oh=7341eb5beb1acd8981be85927b4709af&oe=5CC196BE" alt="">
                 </div>
-                <div class = "col-md-6 remove-margin-sides">
-                   <p>entence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>       
+                <div class="col-md-6 text-center order-1 order-md-2">
+                    <div class="row  justify-content-center">
+                        <div class="col-10 col-lg-8">
+                            <h2>Η ΟΜΑΔΑ ΜΑΣ</h2>
+                            <!-- iCon by oNlineWebFonts.Com --> 
+                             <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ducimus iste esse veniam earum, nesciunt est expedita delectus ut recusandae iure dolorem sapiente, facilis impedit molestiae quam optio nihil natus blanditiis ab at? Sed, iure nesciunt ab esse nisi impedit?</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <section class="container-fluid px-0">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div id="heading" class="text-center mt-5">
+                        <p>Krathseis kai plhrofories gia krathseis me link gia to contact</p>
+                    </div>
+                 </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="https://scontent.fath5-1.fna.fbcdn.net/v/t1.0-9/13232902_705593692877462_8128745318955646753_n.jpg?_nc_cat=102&_nc_ht=scontent.fath5-1.fna&oh=cf81c0880da29307ec4da30236ca7f62&oe=5CBE7E80" alt="">
+                </div>
+            </div>
+        </section>
 
+        
 <% include partials/footer %>
