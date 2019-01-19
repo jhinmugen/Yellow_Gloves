@@ -1,7 +1,12 @@
 body{
     background-image: url("/images/background.jpg");
-
+    width: 100%;
 }
+
+/*.bg-light{*/
+/*    background-image: url("/images/background.jpg");*/
+/*}*/
+
 #mainNavbar{
     font-size: 1.5rem;
     font-weight: 100;
@@ -16,9 +21,6 @@ body{
     
 }
 
-.bg-light{
-    background-image: url("/images/background.jpg");
-}
 
 .carousel-style img{
     width: 100%;
@@ -31,10 +33,7 @@ body{
     width: 100%
 }
 
-.footer-style{
-    background-color: #1F1D18;
-    color: #D8C235;
-}
+
 
 
 

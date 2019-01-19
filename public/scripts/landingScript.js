@@ -1,8 +1,8 @@
 $(function () {
   $(document).scroll(function () {
     var scroll = $(window).scrollTop(); // how many pixels you've scrolled
-    var os = $('.carousel-style').offset().top; // pixels to the top of div1
-    var ht = $('.carousel-style').height(); // height of div1 in pixels
+    var  os = $('.carousel-style').offset().top; // pixels to the top of div1
+    var  ht = $('.carousel-style').height(); // height of div1 in pixel
     if(scroll > os + ht){
         $(".navbar").addClass('bg-light navbar-light');
         $(".navbar").removeClass('navbar-dark');
