@@ -31,10 +31,13 @@ body{
     width: 100%;
 }
 
-/*#restaurant-style{*/
-/*    background:url("http://www.opus1classical.com/img/2018/08/stunning-professional-kitchen-design-ideas-contemporary-home-pro-nice-with-new-sciaticatreatments-european-restaurant-dimensions-guide-showrooms-modern-and-bath-remodel-hotel.jpg");*/
-/*    background-repeat: no-repeat;*/
-/*}*/
+.list-group-item {
+    background-color: transparent;
+    border-top: 1px solid #ddd;
+    border-radius: 0;
+    color: #fff;
+}
+
 
 .footer-style{
     background-color: #1F1D18;
