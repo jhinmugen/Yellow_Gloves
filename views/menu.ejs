@@ -7,19 +7,110 @@
         <div class ="row">
             <div class = "col-md-3">
                 <div class = "list-group list-group-flush">
-                    <a href="#" class="list-group-item list-group-item-action active">
+                    <h3  class="list-group-item">
                         ΜΕΝΟΥ
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">Ορεκτικά</a>
-                    <a href="#" class="list-group-item list-group-item-action">Κυρίως Πιάτα</a>
-                    <a href="#" class="list-group-item list-group-item-action">Κρασιά</a>
-                    <a href="#" class="list-group-item list-group-item-action">Ο Σεφ Προτείνει</a>
+                    <h3>
+                    <button type="button" class="list-group-item list-group-item-action" id = "starters-button" >Ορεκτικά</button>
+                    <button type="button" class="list-group-item list-group-item-action" id = "main-dish-button">Κυρίως</button>
+                    <button type="button" class="list-group-item list-group-item-action" id="wines-button">Κρασιά</button>
+                    <button type="button" class="list-group-item list-group-item-action" id="recommendations-button">Ο σεφ προτείνει</button>
                 </div>
             </div>
-            <div class ="col-md-9">
-                
+            <div class ="col-md-9 text-center" id = "main-menu">
+                <h1>Κυρίως Πιάτα</h1>
+                <div class = row>
+                    <div class = col-md-6>
+                        <ul>
+                            <li>KREAS</li>
+                            <li>KREAS</li>
+                            <li>KREAS</li>
+                            <li>KREAS</li>
+                            <li>KREAS</li>
+                        </ul>
+                    </div>
+                    <div class = col-md-6>
+                        <ul>
+                            <li>KREAS</li>
+                            <li>KREAS</li>
+                            <li>KREAS</li>
+                            <li>KREAS</li>
+                            <li>KREAS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class ="col-md-9 text-center starters isVisible" id = "starters">
+                <h1>Ορεκτικά</h1>
+                <div class = row>
+                    <div class = col-md-6>
+                        <ul>
+                            <li>ορεκτικό</li>
+                            <li>ορεκτικό</li>
+                            <li>ορεκτικό</li>
+                            <li>ορεκτικό</li>
+                            <li>ορεκτικό</li>
+                        </ul>
+                    </div>
+                    <div class = col-md-6>
+                        <ul>
+                            <li>ορεκτικό</li>
+                            <li>ορεκτικό</li>
+                            <li>ορεκτικό</li>
+                            <li>ορεκτικό</li>
+                            <li>ορεκτικό</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class ="col-md-9 text-center starters isVisible" id = "wines">
+                <h1>krasia</h1>
+                <div class = row>
+                    <div class = col-md-6>
+                        <ul>
+                            <li>krasia</li>
+                            <li>krasia</li>
+                            <li>krasia</li>
+                            <li>krasia</li>
+                            <li>krasia</li>
+                        </ul>
+                    </div>
+                    <div class = col-md-6>
+                        <ul>
+                            <li>krasia</li>
+                            <li>krasia</li>
+                            <li>krasia</li>
+                            <li>krasia</li>
+                            <li>krasia</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class ="col-md-9 text-center starters isVisible" id = "recommendations">
+                <h1>recommend</h1>
+                <div class = row>
+                    <div class = col-md-6>
+                        <ul>
+                            <li>fai</li>
+                            <li>fai</li>
+                            <li>fai</li>
+                            <li>fai</li>
+                            <li>fai</li>
+                        </ul>
+                    </div>
+                    <div class = col-md-6>
+                        <ul>
+                            <li>fai</li>
+                            <li>fai</li>
+                            <li>fai</li>
+                            <li>fai</li>
+                            <li>fai</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
+    <script type="text/javascript" src="/scripts/menuScript.js"></script>
+    <script type="text/javascript" src="/scripts/generalScript.js"></script>
 <% include partials/footer %>
