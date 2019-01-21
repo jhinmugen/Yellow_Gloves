@@ -30,6 +30,25 @@ body{
     top: 0px;
     width: 100%;
 }
+.menu-section{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.list-group-style{
+    background-image: url("https://t4.ftcdn.net/jpg/00/83/17/59/240_F_83175907_sOxECs9ixijmCBYZVNCx698w1PhSv6Te.jpg");
+}
+
+.list-group-item:hover{
+    color: #D8C235;
+}
+.list-group-item:focus{
+    color: #D8C235;
+}
+button.list-group-item{
+    color: #1F1D18;
+}
+
 
 .list-group-item {
     background-color: transparent;
