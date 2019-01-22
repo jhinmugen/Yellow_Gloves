@@ -49,6 +49,16 @@ button.list-group-item{
     color: #1F1D18;
 }
 
+button.btn-change{
+    background-color: #1F1D18;
+    border:none;
+}
+
+button.btn-change:hover{
+    background-color: #D8C235;
+    color: #1F1D18;
+}
+
 
 .list-group-item {
     background-color: transparent;
@@ -57,6 +67,11 @@ button.list-group-item{
     color: #fff;
 }
 
+input[type="text"], textarea {
+outline: none;
+box-shadow:none !important;
+border:1px solid #D8C235 !important;
+}
 .isVisible{
     display:  none;
 }
@@ -66,6 +81,25 @@ ul{
     list-style-type: none;
 }
 
+.bigger-icon{
+    font-size: 50px;
+    width: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #D8C235;
+}
+
+
+#map{
+    width: 100%;
+    height: 500px;
+}
 
 .footer-style{
     background-color: #1F1D18;
