@@ -2,9 +2,6 @@
     font-size: 1.5rem;
     font-weight: 100;
 }
-.changeColor{
-    color: black;
-}
 
 body{
     background-image: url("/images/background.jpg");
@@ -17,12 +14,12 @@ body{
 #generalNavbar .nav-link:hover {
     color: #D8C235;
     text-decoration: underline;
-    
 }
 
 .first-section{
     margin-top: 50px;
 }
+
 
 .top-section{
     margin:0px 0px;
@@ -72,6 +69,7 @@ outline: none;
 box-shadow:none !important;
 border:1px solid #D8C235 !important;
 }
+
 .isVisible{
     display:  none;
 }
