@@ -3,9 +3,6 @@ body{
     width: 100%;
 }
 
-/*.bg-light{*/
-/*    background-image: url("/images/background.jpg");*/
-/*}*/
 
 #mainNavbar{
     font-size: 1.5rem;
@@ -31,6 +28,10 @@ body{
     top: 0px;
     width: 100%;
 
+}
+
+.last-section{
+    margin-bottom: 20px;
 }
 
 

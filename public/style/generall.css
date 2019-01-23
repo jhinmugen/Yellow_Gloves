@@ -9,6 +9,21 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.blockquote{
+    font-family: 'EB Garamond', serif;
+}
+
+.logo{
+  vertical-align: middle;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
 }
 
 #generalNavbar .nav-link:hover {
@@ -18,6 +33,7 @@ body{
 
 .first-section{
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
@@ -46,12 +62,15 @@ button.list-group-item{
     color: #1F1D18;
 }
 
-button.btn-change{
+.btn-change{
     background-color: #1F1D18;
     border:none;
 }
+.btn-change:focus{
+    outline: none;
+}
 
-button.btn-change:hover{
+.btn-change:hover{
     background-color: #D8C235;
     color: #1F1D18;
 }
@@ -84,6 +103,16 @@ ul{
     width: 50px;
 }
 
+.smaller-icon{
+    font-size: 20px;
+    width: 20px;
+    color: white;
+}
+
+.smaller-icon:hover{
+    color: #D8C235;
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -100,7 +129,18 @@ a:hover{
 }
 
 .footer-style{
+   margin:0;
+   padding: 0;
+   width: 100%;
+}
+
+.footer-row-style{
     background-color: #1F1D18;
-    color: #D8C235;
+    color: white;
     margin-top: 10px;
+    margin: auto;
+
+}
+.col-style{
+    text-align: center;
 }
